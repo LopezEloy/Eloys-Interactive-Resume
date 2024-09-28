@@ -1,0 +1,28 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: montserrat, sans-serif;
+    background-color: #1e1e1e;
+}
+
+.animated-text{
+    position: absolute;
+    padding: 0 100px;
+    top: 10%;
+    left: 0%;
+    animation: anim 2s;
+    overflow: hidden;
+    color: #fff;
+    background: #2980b9;
+}
+
+@keyframes anim {
+    0%{
+        margin-left: 60%;
+    }
+    100%{
+        margin-left: 0%;
+    }
+}
