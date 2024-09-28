@@ -13,7 +13,6 @@ body {
     top: 10%;
     left: 0%;
     animation: anim 2s;
-    overflow: hidden;
     color: #fff;
     background: #2980b9;
 }
@@ -21,6 +20,9 @@ body {
 @keyframes anim {
     0%{
         margin-left: 60%;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 1s linear;
     }
     100%{
         margin-left: 0%;
