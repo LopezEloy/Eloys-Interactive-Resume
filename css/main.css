@@ -1,30 +1,49 @@
 body {
-    margin: 0%;
-    padding: 0%;
-    font-size: 100px;
-    font-weight: bold;
-    font-family: montserrat, sans-serif;
     background-color: #1e1e1e;
 }
 
-.animated-text{
+.introduction{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: montserrat, sans-serif;
     position: absolute;
-    padding: 0 100px;
-    top: 10%;
-    left: 0%;
+    padding: 0px 100px;
+    top: 100px;
+    left: 0;
     animation: anim 2s;
+    color: #fff;
+    background: #2980b9;
+}
+
+.welcome{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: montserrat, sans-serif;
+    position: absolute;
+    padding: 0px 100px;
+    top: 500px;
+    left: 0;
+    animation: introAnim 4s;
     color: #fff;
     background: #2980b9;
 }
 
 @keyframes anim {
     0%{
-        margin-left: 60%;
-        visibility: hidden;
+        margin-left: 900px;
         opacity: 0;
-        transition: visibility 0s, opacity 1s linear;
     }
     100%{
-        margin-left: 0%;
+        margin-left: 0;
     }
 }
+
+@keyframes introAnim {
+        0%{
+            margin-left: 900px;
+            opacity: 0;
+        }
+        100%{
+            margin-left: 0;
+        }
+    }
