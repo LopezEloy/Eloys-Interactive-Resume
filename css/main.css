@@ -28,6 +28,19 @@ body {
     background: #2980b9;
 }
 
+.bio{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: montserrat, sans-serif;
+    position: absolute;
+    padding: 0px 100px;
+    top: 1100px;
+    left: 0;
+    animation: bioAnim 4s;
+    color: #fff;
+    background: #2980b9;
+}
+
 @keyframes anim {
     0%{
         margin-left: 900px;
@@ -46,4 +59,14 @@ body {
         100%{
             margin-left: 0;
         }
-    }
+}
+
+@keyframes bioAnim {
+        0%{
+            margin-left: 900px;
+            opacity: 0;
+        }
+        100%{
+            margin-left: 0;
+        }
+}
