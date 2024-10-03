@@ -3,24 +3,28 @@ body {
 }
 
 .introduction{
+  height: 200px;
+  width: 800px;
+  border-radius: 50px; /* Rounds background corners*/
+  text-align: left; /* Aligns text*/
   font-size: 100px;
   font-weight: bold;
   font-family: montserrat, sans-serif;
   position: absolute;
-  padding: 0px 100px;
-  top: 100px;
-  left: 0;
+  transform: translate(0%, 00%);
   animation: anim 2s;
   color: #fff;
   background: #2980b9;
 }
 
 .welcome{
+  height: 400px;
+  width: 1200px;
+  text-align: center; /* Aligns text*/
   font-size: 70px;
   font-weight: bold;
   font-family: montserrat, sans-serif;
   position: absolute;
-  padding: 0px 100px;
   top: 500px;
   left: 0;
   animation: introAnim 4s;
@@ -29,54 +33,56 @@ body {
 }
 
 .bio{
+  text-align: center; /* Aligns text*/
   font-size: 50px;
   font-weight: bold;
   font-family: montserrat, sans-serif;
   position: absolute;
-  padding: 0px 100px;
-  top: 1000px;
-  left: 0;
+  top: 1200px;
+  left: 40%;
+  transform: translate(-50%, -50%);
   animation: bioAnim 4s;
   color: #fff;
   background: #2980b9;
 }
 
 .links{
+  text-align: center; /* Aligns text*/
   font-size: 50px;
   font-weight: bold;
   font-family: montserrat, sans-serif;
   position: absolute;
-  padding: 0px 100px;
   top: 1600px;
-  left: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
   animation: linksAnim 4s;
   color: #fff;
   background: #2980b9;
 }
 
 .Linkedin{
+  height: 450px;
+  width: 400px;
+  text-align: center; /* Aligns text*/
   font-size: 30px;
   font-weight: bold;
   font-family: montserrat, sans-serif;
   position: absolute;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  top: 1800px;
+  top: 2000px;
   left: 50%;
+  transform: translate(-50%, -50%);
   animation: LinkedinAnim 4s;
   color: #fff;
   background: #2980b9;
-
+  img{ /* adjusts image size*/
+    max-width: 400px;
+    max-height: 400px;
+    }
 }
 
-img{
-  max-width: 50%;
-  max-height: 50%;
-}
 
-@keyframes anim {
+
+@keyframes anim { /* Does the transition animation*/
   0%{
       margin-left: 900px;
       opacity: 0;
