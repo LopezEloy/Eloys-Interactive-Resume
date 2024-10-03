@@ -3,50 +3,53 @@ body {
 }
 
 .introduction{
-  height: 200px;
-  width: 800px;
+  display: inline-block;
   border-radius: 50px; /* Rounds background corners*/
   text-align: left; /* Aligns text*/
   font-size: 100px;
   font-weight: bold;
   font-family: montserrat, sans-serif;
-  position: absolute;
-  transform: translate(0%, 00%);
-  animation: anim 2s;
+  position: relative;
+  padding: 0px 40px;
+  transform: translate(0%, 50%);
+  animation: introAnim 2s;
   color: #fff;
   background: #2980b9;
 }
 
 .welcome{
-  height: 400px;
-  width: 1200px;
-  text-align: center; /* Aligns text*/
+  display: inline-block;
+  border-radius: 50px; /* Rounds background corners*/
+  text-align: left; /* Aligns text*/
   font-size: 70px;
   font-weight: bold;
   font-family: montserrat, sans-serif;
-  position: absolute;
-  top: 500px;
-  left: 0;
-  animation: introAnim 4s;
+  position: relative;
+  padding: 0px 40px;
+  transform: translate(0%, 150%);
+  animation: welcomeAnim 4s;
   color: #fff;
   background: #2980b9;
 }
 
 .bio{
+  display: inline-block;
+  border-radius: 50px;
   text-align: center; /* Aligns text*/
   font-size: 50px;
   font-weight: bold;
   font-family: montserrat, sans-serif;
-  position: absolute;
-  top: 1200px;
-  left: 40%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  padding: 0px 40px;
+  transform: translate(0%, 200%);
   animation: bioAnim 4s;
   color: #fff;
   background: #2980b9;
 }
 
 .links{
+  display: inline-block;
+  border-radius: 50px;
   text-align: center; /* Aligns text*/
   font-size: 50px;
   font-weight: bold;
@@ -61,6 +64,8 @@ body {
 }
 
 .Linkedin{
+  display: inline-block;
+  border-radius: 50px;
   height: 450px;
   width: 400px;
   text-align: center; /* Aligns text*/
@@ -74,15 +79,63 @@ body {
   animation: LinkedinAnim 4s;
   color: #fff;
   background: #2980b9;
+  
   img{ /* adjusts image size*/
-    max-width: 400px;
-    max-height: 400px;
+      border-radius: 50px;
+      max-width: 400px;
+      max-height: 400px;
     }
 }
 
+.Resume{
+  display: inline-block;
+  border-radius: 50px;
+  height: 450px;
+  width: 400px;
+  text-align: center; /* Aligns text*/
+  font-size: 30px;
+  font-weight: bold;
+  font-family: montserrat, sans-serif;
+  position: absolute;
+  top: 2000px;
+  left: 50%;
+  transform: translate(-180%, -50%);
+  animation: LinkedinAnim 4s;
+  color: #fff;
+  background: #2980b9;
+  
+  img{ /* adjusts image size*/
+      border-radius: 50px;
+      max-width: 400px;
+      max-height: 400px;
+    }
+}
 
+.Github{
+  display: inline-block;
+  border-radius: 50px;
+  height: 450px;
+  width: 400px;
+  text-align: center; /* Aligns text*/
+  font-size: 30px;
+  font-weight: bold;
+  font-family: montserrat, sans-serif;
+  position: absolute;
+  top: 2000px;
+  left: 50%;
+  transform: translate(80%, -50%);
+  animation: LinkedinAnim 4s;
+  color: #fff;
+  background: #2980b9;
+  
+  img{ /* adjusts image size*/
+      border-radius: 50px;
+      max-width: 400px;
+      max-height: 400px;
+    }
+}
 
-@keyframes anim { /* Does the transition animation*/
+@keyframes introAnim { /* Does the transition animation*/
   0%{
       margin-left: 900px;
       opacity: 0;
@@ -92,7 +145,7 @@ body {
   }
 }
 
-@keyframes introAnim {
+@keyframes welcomeAnim {
       0%{
           margin-left: 900px;
           opacity: 0;

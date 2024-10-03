@@ -6,15 +6,14 @@ function App() {
   return (
     <div>
       <div className="introduction">
-        <p>Hello,<br />
-        I am Eloy Lopez</p>
+        Hello, <br />
+        I am Eloy Lopez
       </div>
 
       <div className="welcome">
-        <p> Welcome to my website!<br /> {/*Enter lines*/}
-        Here I will showcase all my experience
+        Welcome to my website! <br /> {/*Enter lines*/}
+        Here I will showcase all my experience <br />
         but first...
-        </p>
       </div>
 
       <div className="bio">
@@ -36,6 +35,21 @@ function App() {
           <img src={LinkedinImg} alt="LinkedIn Thumbnail" />
         </a>
       </div>
+
+      <div className="Resume">
+        <a href="https://Linkedin.com/in/lopez-eloy/" target="_blank" rel="noopener noreferrer">
+          Eloys Resume
+          <img src={LinkedinImg} alt="LinkedIn Thumbnail" />
+        </a>
+      </div>
+
+      <div className="Github">
+        <a href="https://Linkedin.com/in/lopez-eloy/" target="_blank" rel="noopener noreferrer">
+          Github
+          <img src={LinkedinImg} alt="LinkedIn Thumbnail" />
+        </a>
+      </div>
+
     </div>
   );
 }
