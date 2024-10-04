@@ -6,14 +6,9 @@ function App() {
   return (
     <div>
       <div className="introduction">
-        Hello, <br />
-        I am Eloy Lopez
-      </div>
-
-      <div className="welcome">
-        Welcome to my website! <br /> {/*Enter lines*/}
-        Here I will showcase all my experience <br />
-        but first...
+        Hey there! <br />
+        I'm Eloy Lopez <br />
+        Welcome to my React-folio!
       </div>
 
       <div className="bio">
@@ -37,10 +32,8 @@ function App() {
       </div>
 
       <div className="Resume">
-        <a href="https://Linkedin.com/in/lopez-eloy/" target="_blank" rel="noopener noreferrer">
           Eloys Resume
           <img src={LinkedinImg} alt="LinkedIn Thumbnail" />
-        </a>
       </div>
 
       <div className="Github">

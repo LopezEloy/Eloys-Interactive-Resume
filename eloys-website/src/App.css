@@ -1,35 +1,30 @@
 body {
-  background-color: #1e1e1e;
+  background-color: #1a1a1a;/*#5a0000*/
 }
 
 .introduction{
   display: inline-block;
   border-radius: 50px; /* Rounds background corners*/
   text-align: left; /* Aligns text*/
-  font-size: 100px;
+  font-size: 50px;
   font-weight: bold;
-  font-family: montserrat, sans-serif;
+  font-family: monospace;
   position: relative;
   padding: 0px 40px;
-  transform: translate(0%, 50%);
+  transform: translate(40%, 180%);
   animation: introAnim 2s;
-  color: #fff;
-  background: #2980b9;
+  color: #800000;
+  background-color: #ff9393;
+  /*text-shadow: 0px 0px 0 #e2e2e2, 0px 0px 0 #1a1a1a, 0px 0px 0 #e2e2e2, 0px 0px 0 #1a1a1a;*/
 }
 
-.welcome{
-  display: inline-block;
-  border-radius: 50px; /* Rounds background corners*/
-  text-align: left; /* Aligns text*/
-  font-size: 70px;
-  font-weight: bold;
-  font-family: montserrat, sans-serif;
-  position: relative;
-  padding: 0px 40px;
-  transform: translate(0%, 150%);
-  animation: welcomeAnim 4s;
-  color: #fff;
-  background: #2980b9;
+.EloyPic{
+  transform: translate(55%, 0%);
+  img{ /* adjusts image size*/
+    border-radius: 50px;
+    max-width: 400px;
+    max-height: 400px;
+  }
 }
 
 .bio{
@@ -41,7 +36,7 @@ body {
   font-family: montserrat, sans-serif;
   position: relative;
   padding: 0px 40px;
-  transform: translate(0%, 200%);
+  transform: translate(0%, 320%);
   animation: bioAnim 4s;
   color: #fff;
   background: #2980b9;
@@ -145,42 +140,3 @@ body {
   }
 }
 
-@keyframes welcomeAnim {
-      0%{
-          margin-left: 900px;
-          opacity: 0;
-      }
-      100%{
-          margin-left: 0;
-      }
-}
-
-@keyframes bioAnim {
-      0%{
-          margin-left: 900px;
-          opacity: 0;
-      }
-      100%{
-          margin-left: 0;
-      }
-}
-
-@keyframes linksAnim {
-  0%{
-      margin-left: 900px;
-      opacity: 0;
-  }
-  100%{
-      margin-left: 0;
-  }
-}
-
-@keyframes LinkedinAnim {
-  0%{
-      margin-left: 900px;
-      opacity: 0;
-  }
-  100%{
-      margin-left: 0;
-  }
-}
