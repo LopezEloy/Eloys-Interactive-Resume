@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Eloys-Interactive-Resume/static/css/main.a4054f24.css",
-    "main.js": "/Eloys-Interactive-Resume/static/js/main.ba09db7b.js",
+    "main.css": "/Eloys-Interactive-Resume/static/css/main.f375cb2b.css",
+    "main.js": "/Eloys-Interactive-Resume/static/js/main.ad7c87bc.js",
     "static/js/453.4d7028e7.chunk.js": "/Eloys-Interactive-Resume/static/js/453.4d7028e7.chunk.js",
     "static/media/LinkedinThumbnail.PNG": "/Eloys-Interactive-Resume/static/media/LinkedinThumbnail.b00e1feaa916a0f6cd58.PNG",
     "index.html": "/Eloys-Interactive-Resume/index.html",
-    "main.a4054f24.css.map": "/Eloys-Interactive-Resume/static/css/main.a4054f24.css.map",
-    "main.ba09db7b.js.map": "/Eloys-Interactive-Resume/static/js/main.ba09db7b.js.map",
+    "main.f375cb2b.css.map": "/Eloys-Interactive-Resume/static/css/main.f375cb2b.css.map",
+    "main.ad7c87bc.js.map": "/Eloys-Interactive-Resume/static/js/main.ad7c87bc.js.map",
     "453.4d7028e7.chunk.js.map": "/Eloys-Interactive-Resume/static/js/453.4d7028e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4054f24.css",
-    "static/js/main.ba09db7b.js"
+    "static/css/main.f375cb2b.css",
+    "static/js/main.ad7c87bc.js"
   ]
 }
