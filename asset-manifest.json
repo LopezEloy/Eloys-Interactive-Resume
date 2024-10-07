@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Eloys-Interactive-Resume/static/css/main.b85114dc.css",
-    "main.js": "/Eloys-Interactive-Resume/static/js/main.9c055e36.js",
+    "main.css": "/Eloys-Interactive-Resume/static/css/main.62df1e4e.css",
+    "main.js": "/Eloys-Interactive-Resume/static/js/main.cdc18f2f.js",
     "static/js/453.4d7028e7.chunk.js": "/Eloys-Interactive-Resume/static/js/453.4d7028e7.chunk.js",
     "index.html": "/Eloys-Interactive-Resume/index.html",
-    "main.b85114dc.css.map": "/Eloys-Interactive-Resume/static/css/main.b85114dc.css.map",
-    "main.9c055e36.js.map": "/Eloys-Interactive-Resume/static/js/main.9c055e36.js.map",
+    "main.62df1e4e.css.map": "/Eloys-Interactive-Resume/static/css/main.62df1e4e.css.map",
+    "main.cdc18f2f.js.map": "/Eloys-Interactive-Resume/static/js/main.cdc18f2f.js.map",
     "453.4d7028e7.chunk.js.map": "/Eloys-Interactive-Resume/static/js/453.4d7028e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b85114dc.css",
-    "static/js/main.9c055e36.js"
+    "static/css/main.62df1e4e.css",
+    "static/js/main.cdc18f2f.js"
   ]
 }
