@@ -53,6 +53,17 @@ body {
     }
 }
 
+.Github{
+  text-align: center; /* Aligns text*/
+  position: absolute;
+  transform: translate(3600%, 750%);
+  animation: githubAnim 2s;
+
+  img{ /* adjusts image size*/
+      max-width: 40px;
+      max-height: 40px;
+    }
+}
 
 @keyframes introAnim { /* Does the transition animation*/
   0%{
@@ -81,5 +92,15 @@ body {
   }
   100%{
       margin-bottom: 0;
+  }
+}
+
+@keyframes githubAnim { /* Does the transition animation*/
+  0%{
+    margin-top: -400px;
+    opacity: 0;
+  }
+100%{
+    margin-bottom: 0;
   }
 }

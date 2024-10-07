@@ -1,5 +1,6 @@
 import React from 'react';
 import LinkedinIcon from './Linkedin.png';
+import GithubIcon from './githubicon.png';
 import './App.css';
 
 function App() {
@@ -15,8 +16,7 @@ function App() {
         
           Here I will showcase the experience I've gained
           throughout my time at The University of North Texas
-          up until my current career!
-          Let's travel!
+          up until my current career! Let's travel! 
       </div>
 
       <div className="menuBackground">
@@ -25,6 +25,12 @@ function App() {
       <div className="Linkedin">
         <a href="https://Linkedin.com/in/lopez-eloy/" target="_blank" rel="noopener noreferrer">
           <img src={LinkedinIcon} alt="LinkedIn Thumbnail" />
+        </a>
+      </div>
+
+      <div className="Github">
+        <a href="https://github.com/LopezEloy" target="_blank" rel="noopener noreferrer">
+          <img src={GithubIcon} alt="Github Thumbnail" />
         </a>
       </div>
 
