@@ -1,24 +1,23 @@
 body {
-  background-color: #1a1a1a;/*#5a0000*/
+  background-color: #1a1a1a; /* Dark background */
 }
 
-.introduction{
+.introduction {
   display: inline-block;
-  border-radius: 50px; /* Rounds background corners*/
-  text-align: left; /* Aligns text*/
+  border-radius: 50px; /* Rounds background corners */
+  text-align: left; /* Aligns text */
   font-size: 50px;
   font-weight: bold;
   font-family: monospace;
   position: absolute;
-  padding: 0px 40px; /*x-distance, y-distance*/
-  transform: translate(40%, 180%); 
+  padding: 0px 40px; /* x-distance, y-distance */
+  transform: translate(40%, 180%);
   animation: introAnim 2s;
   color: #800000;
   background-color: #ff9393;
-  /*text-shadow: 0px 0px 0 #e2e2e2, 0px 0px 0 #1a1a1a, 0px 0px 0 #e2e2e2, 0px 0px 0 #1a1a1a;*/
 }
 
-.shortBio{
+.shortBio {
   display: inline-block;
   text-align: center;
   width: 800px;
@@ -31,76 +30,51 @@ body {
   color: #e7e7e7;
 }
 
-.menuBackground{
-  height: 400px;
-  width: 140px;
-  position: absolute;
-  border-radius: 50px;
-  transform: translate(1000%, 40%);
-  background-color: #ff9393;
-  animation: menuAnim 2s;
+.sidebar {
+  position: absolute; /* Keep the sidebar positioned absolutely */
+  top: 30%; /* Adjust this value to match the desired vertical position */
+  left: 70%; /* Aligns it to the left side */
+  transform: translateY(-50%); /* Centers it properly vertically */
+  width: 140px; /* Width of the sidebar */
+  background-color: #ff9393; /* Background color */
+  border-radius: 50px; /* Rounded corners */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  padding: 10px 0; /* Padding for the sidebar */
+  animation: sidebarAnim 2s; /* Include the animation */
 }
 
-.Linkedin{
-  text-align: center; /* Aligns text*/
-  position: absolute;
-  transform: translate(3600%, 500%);
-  animation: LinkedinAnim 2s;
-
-  img{ /* adjusts image size*/
-      max-width: 40px;
-      max-height: 40px;
-    }
+.sidebar-item {
+  margin: 30px 0; /* Space between icons */
 }
 
-.Github{
-  text-align: center; /* Aligns text*/
-  position: absolute;
-  transform: translate(3600%, 750%);
-  animation: githubAnim 2s;
-
-  img{ /* adjusts image size*/
-      max-width: 40px;
-      max-height: 40px;
-    }
+.sidebar-item img {
+  width: 40px; /* Icon size */
+  height: 40px; /* Icon size */
+  transition: transform 0.3s; /* Animation for hover effect */
 }
 
-@keyframes introAnim { /* Does the transition animation*/
-  0%{
-      margin-left: 900px;
-      opacity: 0;
-  }
-  100%{
-      margin-left: 0;
-  }
+.sidebar-item img:hover {
+  transform: scale(1.1); /* Slightly enlarge icon on hover */
 }
 
-@keyframes menuAnim { /* Does the transition animation*/
-  0%{
-      margin-top: -400px;
-      opacity: 0;
-  }
-  100%{
-      margin-bottom: 0;
-  }
-}
-
-@keyframes LinkedinAnim { /* Does the transition animation*/
-  0%{
-      margin-top: -400px;
-      opacity: 0;
-  }
-  100%{
-      margin-bottom: 0;
-  }
-}
-
-@keyframes githubAnim { /* Does the transition animation*/
-  0%{
-    margin-top: -400px;
+@keyframes introAnim { /* Does the transition animation */
+  0% {
+    margin-left: 900px;
     opacity: 0;
   }
-100%{
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes sidebarAnim { /* Does the transition animation */
+  0% {
+    margin-top: -400px; /* Keep this for the slide-in effect */
+    opacity: 0;
+  }
+  100% {
     margin-bottom: 0;
   }
 }

@@ -1,40 +1,34 @@
 import React from 'react';
-import LinkedinIcon from './Linkedin.png';
-import GithubIcon from './githubicon.png';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Sidebar from './components/Sidebar'; // Import Sidebar component
+import ResumePage from "./components/Resume";
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <div className="introduction">
-        Hey there! <br />{/*for enter lines*/}
-        I'm Eloy Lopez <br />
-        Welcome to my React-folio! 
-      </div>
+    <Router>
+      <div>
+        <Sidebar /> {/* Sidebar component */}
 
-      <div className="shortBio">
-        
+        <div className="introduction">
+          Hey there! <br />
+          I'm Eloy Lopez <br />
+          Welcome to my React-folio!
+        </div>
+
+        <div className="shortBio">
           Here I will showcase the experience I've gained
           throughout my time at The University of North Texas
-          up until my current career! Let's travel! 
-      </div>
+          up until my current career! Enjoy!
+        </div>
 
-      <div className="menuBackground">
-      </div>
+        <div className="menuBackground"></div>
 
-      <div className="Linkedin">
-        <a href="https://Linkedin.com/in/lopez-eloy/" target="_blank" rel="noopener noreferrer">
-          <img src={LinkedinIcon} alt="LinkedIn Thumbnail" />
-        </a>
+        <Routes>
+          <Route path="/resume" element={<ResumePage />} />
+        </Routes>
       </div>
-
-      <div className="Github">
-        <a href="https://github.com/LopezEloy" target="_blank" rel="noopener noreferrer">
-          <img src={GithubIcon} alt="Github Thumbnail" />
-        </a>
-      </div>
-
-    </div>
+    </Router>
   );
 }
 
