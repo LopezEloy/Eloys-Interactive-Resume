@@ -10,14 +10,7 @@ function App() {
   return (
     <Router>
       <div>
-        
-      <Introduction /> {/* Introduction component */}
-
-        <div className="shortBio">
-          Here I will showcase the experience I've gained
-          throughout my time at The University of North Texas
-          up until my current career! Enjoy!
-        </div>
+        <Introduction /> {/* Introduction component */}
 
         <Sidebar /> {/* Sidebar component */}
 
@@ -26,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/resume" element={<ResumePage />} />
         </Routes>
+        
       </div>
     </Router>
   );

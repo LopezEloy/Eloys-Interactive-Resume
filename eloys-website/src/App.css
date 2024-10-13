@@ -81,7 +81,6 @@ body {
   font-family: monospace;
   position: absolute;
   transform: translate(20%, 1200%);
-  animation: introAnim 2s;
   color: #e7e7e7;
 }
 
