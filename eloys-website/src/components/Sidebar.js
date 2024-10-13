@@ -19,7 +19,7 @@ const Sidebar = () => {
         },
         {
             icon: ResumeIcon,
-            href: "/EloyLopezResume.pdf", // resume path
+            href: `${process.env.PUBLIC_URL}/EloyLopezResume.pdf`, // Use PUBLIC_URL
             target: "_blank",
             rel: "noopener noreferrer",
         },
