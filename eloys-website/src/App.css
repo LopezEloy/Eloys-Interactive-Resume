@@ -61,7 +61,6 @@ body {
 
 .aboutmeHeader {
   display: inline-block;
-  border-radius: 50px; /* Rounds background corners */
   text-align: left; /* Aligns text */
   font-size: 50px;
   font-weight: bold;
@@ -89,6 +88,66 @@ body {
   height: 400px; /* Icon size */
   border-radius: 50px; /* Rounds background corners */
   transform: translate(280%, 275%);
+}
+
+.experienceHeader {
+  display: inline-block;
+  text-align: left; /* Aligns text */
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  position: absolute;
+  padding: 0px 40px; /* x-distance, y-distance */
+  transform: translate(30%, 2500%);
+  color: #ff9393;
+}
+
+.experience1-title {
+  display: inline-block;
+  text-align: left;
+  width: 800px;
+  height: 100px;
+  font-size: 25px;
+  font-family: monospace;
+  position: absolute;
+  transform: translate(20%, 1600%);
+  color: #e7e7e7;
+}
+
+.experience1-role {
+  display: inline-block;
+  text-align: left;
+  width: 800px;
+  height: 100px;
+  font-size: 25px;
+  font-family: monospace;
+  position: absolute;
+  transform: translate(60%, 1600%);
+  color: #e7e7e7;
+}
+
+.experience1-dates {
+  display: inline-block;
+  text-align: left;
+  width: 800px;
+  height: 100px;
+  font-size: 25px;
+  font-family: monospace;
+  position: absolute;
+  transform: translate(60%, 1650%);
+  color: #e7e7e7;
+}
+
+.experience1-description {
+  display: inline-block;
+  text-align: left;
+  width: 800px;
+  height: 100px;
+  font-size: 25px;
+  font-family: monospace;
+  position: absolute;
+  transform: translate(60%, 1700%);
+  color: #e7e7e7;
 }
 
 @keyframes introAnim { /* Does the transition animation */
