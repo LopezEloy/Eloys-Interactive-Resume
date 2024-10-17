@@ -102,7 +102,7 @@ body {
   color: #ff9393;
 }
 
-.experience1-title {
+.experienceCompany {
   display: inline-block;
   text-align: left;
   width: 800px;
@@ -110,11 +110,11 @@ body {
   font-size: 25px;
   font-family: monospace;
   position: absolute;
-  transform: translate(20%, 1600%);
+  transform: translate(-30%, 90%);
   color: #e7e7e7;
 }
 
-.experience1-role {
+.experienceRole {
   display: inline-block;
   text-align: left;
   width: 800px;
@@ -122,11 +122,11 @@ body {
   font-size: 25px;
   font-family: monospace;
   position: absolute;
-  transform: translate(60%, 1600%);
+  transform: translate(20%, 0%);
   color: #e7e7e7;
 }
 
-.experience1-dates {
+.experienceDate {
   display: inline-block;
   text-align: left;
   width: 800px;
@@ -134,11 +134,11 @@ body {
   font-size: 25px;
   font-family: monospace;
   position: absolute;
-  transform: translate(60%, 1650%);
+  transform: translate(-48%, 30%);
   color: #e7e7e7;
 }
 
-.experience1-description {
+.experienceDescription {
   display: inline-block;
   text-align: left;
   width: 800px;
@@ -146,7 +146,7 @@ body {
   font-size: 25px;
   font-family: monospace;
   position: absolute;
-  transform: translate(60%, 1700%);
+  transform: translate(-30%, 40%);
   color: #e7e7e7;
 }
 
