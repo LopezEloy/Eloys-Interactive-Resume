@@ -1,5 +1,12 @@
 {
-    "Experience_Info": 
+    "Experience":
+    {
+        "Section":
+        {
+            "Header": "Experience"
+        },
+    "Experience_Info":
+    [
         {
         "Company": "Amazon Robotics",
         "Role": "Contract Deployment Engineer",
@@ -7,7 +14,63 @@
         "End_Date": "Present",   
         "Description": 
             [
-                "At Amazon Robotics I quality check Amazon technology to ensure safety and proper functionality for employees."
+                "Conducted quality checks on Amazon robots and workstations to ensure optimal safety standards and operational performance.",
+                "Diagnosed and resolved issues with station conveyors, executing live testing to verify functionality and address any malfunctions.",
+                "Coordinated with 3rd party assemblers to address and resolve quality check failures, ensuring timely and effective resolution of component issues.",
+                "Utilized Asana to provide detailed updates and discuss progress, challenges, and solutions during daily team meetings."
             ]
+        },
+        {
+        "Company": "Amazon",
+        "Role": "Delivery Driver",
+        "Start_Date": "March 2024",
+        "End_Date": "April 2024",   
+        "Description": 
+            [
+                "Delivered 300+ packages daily while maintaining a customer satisfaction, addressing problems and resolving issues promptly.",
+                "Executed efficient delivery routes using GPS and route optimization tools to minimize travel time and maximize on-time deliveries.",
+                "Performed pre-trip and post-trip inspections of delivery vehicles, reporting any issues or needed maintenance to management."
+            ]
+        },
+        {
+            "Company": "Exalent",
+            "Role": "Full-Stack Developer Intern",
+            "Start_Date": "October 2023",
+            "End_Date": "December 2023",   
+            "Description": 
+                [
+                    "Developed back-end coding focused on designing RESTful APIs for data retrieval from Microsoft SQL Server Database utilizing Swagger for API documentation.",
+                    "Created interactive front-end pages using CSS to showcase API data with grid displays, buttons, and titles using JavaScript and React.",
+                    "Updated Azure DevOps repositories, enabling parallel development, smooth code integration, and version control on branches.",
+                    "Incorporated Agile development practices and engaged in daily SCRUM meetings to provide progress reports."
+                ]
+        },
+        {
+            "Company": "Oceus Networks",
+            "Role": "Software Developer Intern",
+            "Start_Date": "May 2023",
+            "End_Date": "August 2023",   
+            "Description": 
+                [
+                    "Composed a program for conducting hardware diagnostics on a Telecommunication Modem Deployment (TMD) device that automated 17 tests such as USB, and ethernet port performance.",
+                    "Constructed the diagnostic program using CLion IDE, C, C++, and used the Linux command line interface to interact with the TMD device to fetch hardware locations.",
+                    "Managed a two-person development team, by facilitating meetings and setting goals to ensure prompt project completion.",
+                    "Implemented collaboration and effective code management using Git for version control, actively participating in daily SCRUM sessions, and delivering bi-weekly progress reports to mentors and peers, highlighting project accomplishments."
+                ]
+        },
+        {
+            "Company": "City of Lewisville",
+            "Role": "Information Technology Service Intern",
+            "Start_Date": "July 2022",
+            "End_Date": "May 2023",   
+            "Description": 
+                [
+                    "Provided IT solutions for 300+ employees, servicing public services (Police/Fire departments, Court, Parks, and Rec).",
+                    "Resolved technical support tickets over phone and email within 24 hours.",
+                    "Diagnosed and mitigated security breaches resulting from phishing attempts by re-imaging their device and safely restoring user data.",
+                    "Rehabilitated computer hardware/software by repairing malfunctions such as slow computer speed, file deletions, and 3rd party software issues."
+                ]
         }
+    ]
+    }
 }

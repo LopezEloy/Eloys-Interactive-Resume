@@ -90,64 +90,122 @@ body {
   transform: translate(280%, 275%);
 }
 
-.experienceHeader {
-  display: inline-block;
-  text-align: left; /* Aligns text */
+.Experience-section {
   font-size: 50px;
-  font-weight: bold;
   font-family: monospace;
   position: absolute;
-  padding: 0px 40px; /* x-distance, y-distance */
-  transform: translate(30%, 2500%);
+  transform: translate(9%, 250%);
+}
+
+.title-a{
   color: #ff9393;
 }
 
-.experienceCompany {
-  display: inline-block;
-  text-align: left;
-  width: 800px;
-  height: 100px;
-  font-size: 25px;
-  font-family: monospace;
-  position: absolute;
-  transform: translate(-30%, 90%);
+.subtitle-a{
   color: #e7e7e7;
 }
 
-.experienceRole {
-  display: inline-block;
-  text-align: left;
-  width: 800px;
-  height: 100px;
-  font-size: 25px;
-  font-family: monospace;
-  position: absolute;
-  transform: translate(20%, 0%);
-  color: #e7e7e7;
+li {
+  list-style: none;
 }
 
-.experienceDate {
-  display: inline-block;
+#experience {
   text-align: left;
-  width: 800px;
-  height: 100px;
-  font-size: 25px;
-  font-family: monospace;
-  position: absolute;
-  transform: translate(-48%, 30%);
-  color: #e7e7e7;
 }
 
-.experienceDescription {
-  display: inline-block;
-  text-align: left;
-  width: 800px;
-  height: 100px;
-  font-size: 25px;
-  font-family: monospace;
-  position: absolute;
-  transform: translate(-30%, 40%);
+.wrapper {
+  display: flex;
+}
+.indicator {
+  padding: 2.5rem 1rem;
+  color: #ff9393;
+}
+.indicator li {
+  display: flex;
+  align-items: center;
+  grid-gap: 0.5rem;
+  padding: 1.5rem 4rem 0.2rem 0rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--white);
+  border-right: 3px solid transparent;
+  transition: border-right-color 0.3s ease; /* Add transition property */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Show ellipsis (...) for overflow text */
+}
+.indicator li i {
+  font-size: 1rem;
+}
+.indicator li:hover {
+  color: var(--light-lime);
+}
+.indicator li.active {
+  border-right-color: var(--light-lime);
+  color: var(--light-lime); /* Set the text color of the active indicator */
+}
+.content {
+  padding: 1rem 2rem; /*side and height padding*/
+  border-radius: 50px;
+  background-color: #ff9393;
+}
+.content li {
+  display: none;
+}
+.content li.active {
+  display: list-item;
+}
+.content h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #800000;
+}
+
+.content h4 {
+  font-size: 1.25rem;
+  color: #800000;
+  margin-bottom: 1.25rem;
+  word-spacing: 0.25rem;
+}
+
+.content ul {
+  padding-left: 1rem;
+  width: 80%;
+}
+
+.content ul li.active {
   color: #e7e7e7;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  padding-left: 0.5rem;
+  padding-bottom: .5rem; /* Distance from other li descriptions */
+  position: relative; /* Set position to relative for absolute positioning */
+}
+
+/* Style the list item marker (absolute positioning) */
+.content ul li.active::before {
+  content: "▹";
+  color: var(--light-lime);
+  position: absolute;
+  left: -1rem; /* distance between symbol and text */
+}
+
+.content li li {
+  margin-bottom: 0.5rem;
+  color: var(--light-lime);
+  font-size: 1rem;
+  width: 50%;
+}
+
+@media screen and (max-width: 770px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .indicator {
+    border-right: auto;
+  }
 }
 
 @keyframes introAnim { /* Does the transition animation */

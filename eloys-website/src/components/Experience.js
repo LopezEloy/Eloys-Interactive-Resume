@@ -1,29 +1,80 @@
-import React from "react";
+import React, { useState } from "react";
 import materialInfo from "../material.json";
+import { Fade } from "react-awesome-reveal";
+import ReactMarkdown from "react-markdown";
 
 const Experience = () => {
 
-    const experienceInfo = materialInfo.Experience_Info;
+    const { Experience } = materialInfo;
+    const experienceInfo = Experience.Experience_Info;
+    const [activeWorkIndex, setActiveWorkIndex] = useState(0);
+
+    const handleTabClick = (index) => {
+        setActiveWorkIndex(index);
+    };
     
     return(
-        <div>
-            <div className="experienceHeader"> 
-                Experience
-                <div className="experienceCompany">
-                    {experienceInfo.Company}
-                    <div className="experienceRole">
-                        {experienceInfo.Role}
-                        <div className="experienceDate">
-                            {experienceInfo.Start_Date} - {experienceInfo.End_Date}
-                            <div className="experienceDescription">
-                                {experienceInfo.Description}
+        <Fade triggerOnce={true}>
+            <section className="Experience-section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-12">
+                            <div className="title-box text-center">
+                                <h3 className="title-a" id="experience">
+                                    {Experience.Section.Header}
+                                <div className="line-mf"></div>
+                                </h3>
+                                <p className="subtitle-a">
+                                <ReactMarkdown>
+                                    {Experience.Section.Description}
+                                </ReactMarkdown>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-sm-12">
+                        <div className="wrapper">
+                            <Fade triggerOnce={true}>
+                                <ul className="indicator">
+                                {experienceInfo.map((job, index) => (
+                                    <li
+                                    key={index}
+                                    className={index === activeWorkIndex ? "active" : ""}
+                                    onClick={() => handleTabClick(index)}
+                                    data-target={job.Company.split(" ").join("-")}
+                                    >
+                                    {job.Company}
+                                    </li>
+                                    ))}
+                                </ul>
+                            </Fade>
+                            <div className="content">
+                                <h1>
+                                    {experienceInfo[activeWorkIndex].Role} @{" "}
+                                    {experienceInfo[activeWorkIndex].Company}
+                                </h1>
+                                <h4>
+                                    {experienceInfo[activeWorkIndex].Start_Date} -{" "}
+                                    {experienceInfo[activeWorkIndex].End_Date}
+                                </h4>
+                                <Fade damping={0.1} triggerOnce={true}>
+                                    <ul>
+                                        {experienceInfo[activeWorkIndex].Description.map((paragraph, paraIndex) => (
+                                        <li className="active"
+                                            key={paraIndex}>
+                                            {paragraph}
+                                        </li>
+                                        ))}
+                                    </ul>
+                                </Fade>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    )
-}
+            </section>
+        </Fade>
+    );
+};
 
 export default Experience;
