@@ -72,5 +72,27 @@
                 ]
         }
     ]
+    },
+
+    "Projects":
+    {
+        "Section":
+        {
+            "Header": "Projects"
+        },
+    "Projects_Info":
+    [
+        {
+        "Title": "Eloys Reactfolio",
+        "Skills": "JavaScript, HTML, CSS, React, NPM, node.js, Github",
+        "Start_Date": "September 2024",
+        "End_Date": "Present",   
+        "Description": 
+            [
+                "Created a web-portfolio to showcase my knowledge in Javascript, HTML, and CSS extending more on my resume."
+            ]
+        }
+        
+    ]
     }
 }
