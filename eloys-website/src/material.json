@@ -91,8 +91,32 @@
             [
                 "Created a web-portfolio to showcase my knowledge in Javascript, HTML, and CSS extending more on my resume."
             ]
-        }
-        
+        },
+        {
+            "Title": "3D Printed Vehicle Snorkel",
+            "Skills": "Fusion 360, Prusa Slicer, Meshmixer",
+            "Start_Date": "November 2023",
+            "End_Date": "February 2024",   
+            "Description": 
+                [
+                    "Crafted a custom snorkel for a vehicle's air intake using Fusion 360, optimizing for functionality and aesthetics.",
+                    "Sliced the snorkel efficiently with Prusa Slicer and executed the 3D printing process on an Ender 3 Pro.",
+                    "Employed Meshmixer to tailor the snorkel to fit within the Ender's bed size, followed by meticulous sanding and painting for a polished appearance.",
+                    "Fine-tuned filament temperature, infill, and support settings, strategically minimizing print cost and material consumption."
+                ]
+            },{
+                "Title": "Sound Reduction Drone",
+                "Skills": "Linux, Raspberry Pi, Matlab",
+                "Start_Date": "August 2022",
+                "End_Date": "May 2023",   
+                "Description": 
+                    [
+                        "Established an Active Noise Cancellation system that reduced drone sound emissions by 28.5 decibels resulting in first place team recognition.",
+                        "Utilized a Raspberry Pi to develop a script in python that records/outputs audio.",
+                        "Converted recorded audio files to frequency graphs in MATLAB that exports the data points into an excel sheet.",
+                        "Documented results and procedures to compare progress and present to the senior design class and sponsors."
+                    ]
+                }
     ]
     }
 }
