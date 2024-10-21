@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Eloys-Interactive-Resume/static/css/main.263da3fc.css",
-    "main.js": "/Eloys-Interactive-Resume/static/js/main.157f19e3.js",
+    "main.css": "/Eloys-Interactive-Resume/static/css/main.d82c1cb5.css",
+    "main.js": "/Eloys-Interactive-Resume/static/js/main.2169d29d.js",
     "static/js/453.4d7028e7.chunk.js": "/Eloys-Interactive-Resume/static/js/453.4d7028e7.chunk.js",
     "static/media/EloyPic.jpg": "/Eloys-Interactive-Resume/static/media/EloyPic.d7940c0094643a3d96cb.jpg",
     "static/media/fileicon.png": "/Eloys-Interactive-Resume/static/media/fileicon.5abdfb9f711f32554b63.png",
     "index.html": "/Eloys-Interactive-Resume/index.html",
-    "main.263da3fc.css.map": "/Eloys-Interactive-Resume/static/css/main.263da3fc.css.map",
-    "main.157f19e3.js.map": "/Eloys-Interactive-Resume/static/js/main.157f19e3.js.map",
+    "main.d82c1cb5.css.map": "/Eloys-Interactive-Resume/static/css/main.d82c1cb5.css.map",
+    "main.2169d29d.js.map": "/Eloys-Interactive-Resume/static/js/main.2169d29d.js.map",
     "453.4d7028e7.chunk.js.map": "/Eloys-Interactive-Resume/static/js/453.4d7028e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.263da3fc.css",
-    "static/js/main.157f19e3.js"
+    "static/css/main.d82c1cb5.css",
+    "static/js/main.2169d29d.js"
   ]
 }
