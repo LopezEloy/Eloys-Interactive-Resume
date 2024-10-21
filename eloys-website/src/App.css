@@ -96,7 +96,7 @@ body {
   font-size: 50px;
   font-family: monospace;
   position: absolute;
-  transform: translate(7%, 250%);
+  transform: translate(7%, 200%);
 }
 
 .title-a{
@@ -208,7 +208,7 @@ li {
   font-size: 50px;
   font-family: monospace;
   position: absolute;
-  transform: translate(7%, 450%);
+  transform: translate(7%, 350%);
 }
 
 .title-a{
