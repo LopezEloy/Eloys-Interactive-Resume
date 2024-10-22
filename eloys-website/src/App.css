@@ -11,7 +11,7 @@ body {
   font-family: monospace;
   position: absolute;
   padding: 0px 40px; /* x-distance, y-distance */
-  transform: translate(20%, 180%);
+  transform: translate(20%, 140%);
   animation: introAnim 2s;
   color: #800000;
   background-color: #ff9393;
@@ -25,7 +25,7 @@ body {
   font-size: 25px;
   font-family: monospace;
   position: absolute;
-  transform: translate(20%, 550%);
+  transform: translate(20%, 490%);
   animation: introAnim 2s;
   color: #e7e7e7;
 }
@@ -67,7 +67,7 @@ body {
   font-family: monospace;
   position: absolute;
   padding: 0px 30px; /* x-distance, y-distance */
-  transform: translate(50%, 1800%);
+  transform: translate(50%, 1500%);
   color: #ff9393;
 }
 
@@ -79,7 +79,7 @@ body {
   font-size: 20px;
   font-family: monospace;
   position: absolute;
-  transform: translate(10%, 1200%);
+  transform: translate(-20%, 100%);
   color: #e7e7e7;
 }
 
@@ -87,7 +87,7 @@ body {
   width: 400px; /* Icon size */
   height: 400px; /* Icon size */
   border-radius: 50px; /* Rounds background corners */
-  transform: translate(200%, 275%);
+  transform: translate(200%, -70%);
 }
 
 /*############# Experience Section #############*/
