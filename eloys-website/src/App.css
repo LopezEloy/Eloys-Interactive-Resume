@@ -325,8 +325,117 @@ li {
   .wrapper {
     flex-direction: column;
   }
+
+  /* Adjusting font sizes and layout for smaller screens */
+  .introduction {
+    font-size: 20px; /* Reduced for mobile */
+    padding: 10px 20px;
+    transform: translate(5%, 130%);
+  }
+
+  .shortBio {
+    width: 90%;
+    font-size: 18px; /* Smaller font for better readability */
+    transform: translate(5%, 300%);
+  }
+
+  .sidebar {
+    transform: translate(170%, -100%);
+    width: 60px; /* Make sidebar smaller */
+    left: 60%; /* Adjust positioning for mobile */
+  }
+
+  .sidebar-item {
+    margin: 20px 0; /* Space between icons */
+  }
+
+  .sidebar-item img {
+    width: 25px; /* Icon size */
+    height: 25px; /* Icon size */
+    transition: transform 0.3s; /* Animation for hover effect */
+  }
+
+  .aboutmeHeader {
+    font-size: 35px;
+    transform: translate(0%, 1300%);
+  }
+
+  .aboutme {
+    width: 220%;
+    font-size: 16px;
+    transform: translate(-30%, 120%);
+  }
+
+  .aboutme-item img{
+    width: 100px; /* Icon size */
+    height: 100px; /* Icon size */
+    border-radius: 50px; /* Rounds background corners */
+    transform: translate(220%, -440%);
+  }
+
+  .Experience-section{
+    font-size: 35px; /* Reduce for smaller screens */
+    transform: translate(5%, 150%);
+  }
+
+  .Projects-section {
+    font-size: 35px; /* Reduce for smaller screens */
+    transform: translate(5%, 280%);
+  }
+
   .indicator {
-    border-right: auto;
+    transform: translate(-20%,-30%);
+    padding: 1rem 5rem;
+  }
+
+  .indicator li {
+    grid-gap: 0.rem;
+    padding: .1rem .1rem 0.1rem .1rem;
+    font-size: 1rem;
+    border-right: 3px solid transparent; /*Indicator br thickness */
+  }
+
+  .indicator li i {
+    font-size: 1rem;
+  }
+
+  .content {
+    transform: translate(-3%,-10%);
+    padding: 1rem 1rem; /*side and height padding*/
+    border-radius: 50px;
+    width: 90%; /*background block width*/
+    background-color: #ff9393;
+  }
+
+  .content h1 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .content h2 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .content h4 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    word-spacing: 0.25rem;
+  }
+  
+  .content ul {
+    padding-left: 0rem;
+    width: 100%;
+  }
+  
+  .content ul li.active {
+    margin-bottom: 0.5rem;
+    font-size: .80rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-bottom: .5rem; /* Distance from other li descriptions */
+    position: relative; /* Set position to relative for absolute positioning */
   }
 }
 
