@@ -354,7 +354,7 @@ li {
   }
 
   .sidebar {
-    transform: translate(230%, -80%);
+    transform: translate(230%, -100%);
     width: 40px; /* Make sidebar smaller */
     left: 60%; /* Adjust positioning for mobile */
   }
@@ -384,7 +384,7 @@ li {
     width: 100px; /* Icon size */
     height: 100px; /* Icon size */
     border-radius: 50px; /* Rounds background corners */
-    transform: translate(200%, -610%);
+    transform: translate(200%, -570%);
   }
 
   .Experience-section{
@@ -417,7 +417,7 @@ li {
     transform: translate(-3%,-10%);
     padding: 0.1rem 1rem; /*side and height padding*/
     border-radius: 50px;
-    width: 70%; /*background block width*/
+    width: 80%; /*background block width*/
     background-color: #ff9393;
   }
 
