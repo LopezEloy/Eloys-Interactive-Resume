@@ -321,16 +321,16 @@ li {
   width: 50%;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 760px) {
   .wrapper {
     flex-direction: column;
   }
 
   /* Adjusting font sizes and layout for smaller screens */
   .introduction {
-    font-size: 20px; /* Reduced for mobile */
+    font-size: 18px; /* Reduced for mobile */
     padding: 10px 20px;
-    transform: translate(5%, 130%);
+    transform: translate(5%, 200%);
   }
 
   .shortBio {
@@ -340,8 +340,8 @@ li {
   }
 
   .sidebar {
-    transform: translate(170%, -100%);
-    width: 60px; /* Make sidebar smaller */
+    transform: translate(250%, -100%);
+    width: 50px; /* Make sidebar smaller */
     left: 60%; /* Adjust positioning for mobile */
   }
 
@@ -370,7 +370,7 @@ li {
     width: 100px; /* Icon size */
     height: 100px; /* Icon size */
     border-radius: 50px; /* Rounds background corners */
-    transform: translate(220%, -440%);
+    transform: translate(220%, -460%);
   }
 
   .Experience-section{
