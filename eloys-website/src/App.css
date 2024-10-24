@@ -349,18 +349,18 @@ li {
 
   .shortBio {
     width: 90%;
-    font-size: 18px; /* Smaller font for better readability */
+    font-size: 15px; /* Smaller font for better readability */
     transform: translate(5%, 300%);
   }
 
   .sidebar {
-    transform: translate(250%, -80%);
-    width: 50px; /* Make sidebar smaller */
+    transform: translate(230%, -80%);
+    width: 40px; /* Make sidebar smaller */
     left: 60%; /* Adjust positioning for mobile */
   }
 
   .sidebar-item {
-    margin: 20px 0; /* Space between icons */
+    margin: 10px 0; /* Space between icons */
   }
 
   .sidebar-item img {
@@ -376,7 +376,7 @@ li {
 
   .aboutme {
     width: 220%;
-    font-size: 16px;
+    font-size: 15px;
     transform: translate(-30%, 120%);
   }
 
@@ -384,17 +384,17 @@ li {
     width: 100px; /* Icon size */
     height: 100px; /* Icon size */
     border-radius: 50px; /* Rounds background corners */
-    transform: translate(220%, -460%);
+    transform: translate(200%, -610%);
   }
 
   .Experience-section{
     font-size: 35px; /* Reduce for smaller screens */
-    transform: translate(5%, 150%);
+    transform: translate(5%, 200%);
   }
 
   .Projects-section {
     font-size: 35px; /* Reduce for smaller screens */
-    transform: translate(5%, 280%);
+    transform: translate(5%, 330%);
   }
 
   .indicator {
@@ -403,7 +403,7 @@ li {
   }
 
   .indicator li {
-    grid-gap: 0.rem;
+    grid-gap: 0rem;
     padding: .1rem .1rem 0.1rem .1rem;
     font-size: 1rem;
     border-right: 3px solid transparent; /*Indicator br thickness */
@@ -415,9 +415,9 @@ li {
 
   .content {
     transform: translate(-3%,-10%);
-    padding: 1rem 1rem; /*side and height padding*/
+    padding: 0.1rem 1rem; /*side and height padding*/
     border-radius: 50px;
-    width: 90%; /*background block width*/
+    width: 70%; /*background block width*/
     background-color: #ff9393;
   }
 
@@ -442,8 +442,8 @@ li {
     width: 100%;
   }
   
-  .content ul li.active {
-    margin-bottom: 0.5rem;
+  .content ul li.active { /* Inside content */
+    margin-bottom: 0.1rem;
     font-size: .80rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
