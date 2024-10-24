@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Sidebar from './components/Sidebar'; // Import Sidebar component
 import ResumePage from "./components/Resume";
@@ -10,6 +11,12 @@ import './App.css';
 
 
 function App() {
+
+  useEffect(() => {
+    // Scroll to the top when reloading page
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <Router>
       <div>

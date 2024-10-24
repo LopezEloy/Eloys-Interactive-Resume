@@ -2,6 +2,8 @@ body {
   background-color: #1a1a1a; /* Dark background */
 }
 
+/*############# Introduction Section #############*/
+
 .introduction {
   display: inline-block;
   border-radius: 50px; /* Rounds background corners */
@@ -29,6 +31,8 @@ body {
   animation: introAnim 2s;
   color: #e7e7e7;
 }
+
+/*############# Sidebar Section #############*/
 
 .sidebar {
   position: absolute; /* Keep the sidebar positioned absolutely */
@@ -58,6 +62,8 @@ body {
 .sidebar-item img:hover {
   transform: scale(1.1); /* Slightly enlarge icon on hover */
 }
+
+/*############# About Section #############*/
 
 .aboutmeHeader {
   display: inline-block;
@@ -93,10 +99,12 @@ body {
 /*############# Experience Section #############*/
 
 .Experience-section {
+  min-height: 300px;
+  max-height: 600px;
   font-size: 50px;
   font-family: monospace;
   position: absolute;
-  transform: translate(7%, 200%);
+  transform: translate(7%, 250%);
 }
 
 .title-a{
@@ -147,9 +155,14 @@ li {
   color: var(--light-lime); /* Set the text color of the active indicator */
 }
 .content {
+  min-height: 300px;
+  max-height: 500px;
+  width: 50%;
+  max-width: 900px;
   padding: 1rem 2rem; /*side and height padding*/
   border-radius: 50px;
   width: 50%; /*background block width*/
+  transition: min-height 0.3s ease;
   background-color: #ff9393;
 }
 .content li {
@@ -205,10 +218,12 @@ li {
 /*############# Project Section #############*/
 
 .Projects-section {
+  min-height: 300px;
+  max-height: 600px;
   font-size: 50px;
   font-family: monospace;
   position: absolute;
-  transform: translate(7%, 350%);
+  transform: translate(7%, 375%);
 }
 
 .title-a{
@@ -340,7 +355,7 @@ li {
   }
 
   .sidebar {
-    transform: translate(250%, -100%);
+    transform: translate(250%, -80%);
     width: 50px; /* Make sidebar smaller */
     left: 60%; /* Adjust positioning for mobile */
   }

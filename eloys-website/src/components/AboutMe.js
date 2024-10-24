@@ -13,9 +13,7 @@ const AboutMe = () => {
                 <div className="aboutme">
                 {About.Section.Description}
                     <div className="aboutme-item" >
-                        <a>
-                        <img src={EloyPicture} />
-                        </a>
+                        <img src={EloyPicture} alt="EloyPic"/>
                     </div>
                 </div>
             </div>
