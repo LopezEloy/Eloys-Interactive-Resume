@@ -11,10 +11,15 @@ const AboutMe = () => {
             <div className="aboutmeHeader">
                 {About.Section.Header}
                 <div className="aboutme">
-                {About.Section.Description}
+                    <Fade damping={0.3} triggerOnce={true}>
+                {About.Section.Description.map((sentence,index) => (
+                    <p key={index}>
+                        {sentence}
+                    </p>
+                ))}
                     <div className="aboutme-item" >
                         <img src={EloyPicture} alt="EloyPic"/>
-                    </div>
+                    </div></Fade>
                 </div>
             </div>
         </Fade>

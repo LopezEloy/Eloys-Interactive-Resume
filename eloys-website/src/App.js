@@ -16,13 +16,13 @@ function App() {
     // Scroll to the top when reloading page
     window.scrollTo(0, 0);
   }, []);
-  
+
   return (
     <Router>
       <div>
-        <Introduction /> {/* Introduction component */}
-
         <Sidebar /> {/* Sidebar component */}
+
+        <Introduction /> {/* Introduction component */}
 
         <AboutMe /> {/* Aboutme component */}
 
