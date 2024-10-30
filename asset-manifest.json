@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Eloys-Interactive-Resume/static/css/main.fa71b2e0.css",
+    "main.css": "/Eloys-Interactive-Resume/static/css/main.859aed51.css",
     "main.js": "/Eloys-Interactive-Resume/static/js/main.b249aa57.js",
     "static/js/453.4d7028e7.chunk.js": "/Eloys-Interactive-Resume/static/js/453.4d7028e7.chunk.js",
     "static/media/EloyPic.jpg": "/Eloys-Interactive-Resume/static/media/EloyPic.d7940c0094643a3d96cb.jpg",
     "static/media/fileicon.png": "/Eloys-Interactive-Resume/static/media/fileicon.5abdfb9f711f32554b63.png",
     "index.html": "/Eloys-Interactive-Resume/index.html",
-    "main.fa71b2e0.css.map": "/Eloys-Interactive-Resume/static/css/main.fa71b2e0.css.map",
+    "main.859aed51.css.map": "/Eloys-Interactive-Resume/static/css/main.859aed51.css.map",
     "main.b249aa57.js.map": "/Eloys-Interactive-Resume/static/js/main.b249aa57.js.map",
     "453.4d7028e7.chunk.js.map": "/Eloys-Interactive-Resume/static/js/453.4d7028e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa71b2e0.css",
+    "static/css/main.859aed51.css",
     "static/js/main.b249aa57.js"
   ]
 }
