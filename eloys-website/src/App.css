@@ -13,7 +13,8 @@ body {
   font-family: monospace;
   position: absolute;
   padding: 0px 40px; /* x-distance, y-distance */
-  transform: translate(20%, 140%);
+  line-height: .5rem;
+  transform: translate(40%, 90%);
   animation: introAnim 2s;
   color: #800000;
   background-color: #ff9393;
@@ -27,7 +28,7 @@ body {
   font-size: 25px;
   font-family: monospace;
   position: absolute;
-  transform: translate(20%, 490%);
+  transform: translate(40%, 500%);
   animation: shortBioAnim 4s;
   color: #e7e7e7;
 }
@@ -37,7 +38,7 @@ body {
 .sidebar {
   position: absolute; /* Keep the sidebar positioned absolutely */
   top: 30%; /* Adjust this value to match the desired vertical position */
-  left: 80%; /* Aligns it to the left side */
+  left: 70%; /* Aligns it to the left side */
   transform: translateY(-50%); /* Centers it properly vertically */
   width: 140px; /* Width of the sidebar */
   background-color: #ff9393; /* Background color */

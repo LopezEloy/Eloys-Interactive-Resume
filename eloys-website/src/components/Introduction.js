@@ -1,20 +1,17 @@
 import React from "react";
+import materialInfo from "../material.json";
 
 const Introduction = () => {
+    const { Introduction } = materialInfo;
+    
     return(
-        <div>
             <div className="introduction">
-                Hey there! <br />
-                I'm Eloy Lopez <br />
-                Welcome to my React-folio!
+            {Introduction.Section.Description.map((sentence,index) => (
+                    <p key={index}>
+                        {sentence}
+                    </p>
+                ))}
             </div>
-
-            <div className="shortBio">
-                Here I will showcase the experience I've gained
-                throughout my time at The University of North Texas
-                up until my current career! Enjoy!
-            </div>
-        </div>
     )
 }
 

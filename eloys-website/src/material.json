@@ -1,4 +1,30 @@
 {
+    "Introduction":
+    {
+        "Section":{
+            "Header": "Introduction",
+            "Description":
+                [
+                    "Hey there!",
+                    "I'm Eloy Lopez",
+                    "Welcome to my React-folio!"
+                ]
+        }
+    },
+    
+    "ShortBio":
+    {
+        "Section":{
+            "Header": "ShortBio",
+            "Description":
+                [
+                    "Here I will showcase the experience I've gained throughout my time at The University of North Texas up until my current career! Enjoy!"
+                ]
+            
+        
+        }
+    },
+
     "About":
     {
         "Section":{

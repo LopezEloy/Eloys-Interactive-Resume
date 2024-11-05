@@ -5,6 +5,7 @@ import Sidebar from './components/Sidebar'; // Import Sidebar component
 import ResumePage from "./components/Resume";
 import AboutMe from './components/AboutMe'; // Import AboutMe component
 import Introduction from './components/Introduction'; // Import Introduction component
+import ShortBio from './components/ShortBio'; // Import ShortBio component
 import Experience from './components/Experience'; // Import Experience component
 import Projects from './components/Projects';
 import './App.css';
@@ -23,6 +24,8 @@ function App() {
         <Sidebar /> {/* Sidebar component */}
 
         <Introduction /> {/* Introduction component */}
+
+        <ShortBio /> {/* Introduction component */}
 
         <AboutMe /> {/* Aboutme component */}
 
